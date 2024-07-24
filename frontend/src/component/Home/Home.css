@@ -1,6 +1,6 @@
 .home {
   position: relative;
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,9 +112,6 @@
     height: 300px;
     width: 250px;
     margin-top: -10rem;
-  }
-  .scroll_down {
-    bottom: 12rem;
   }
   .section {
     padding-top: 0.1rem;

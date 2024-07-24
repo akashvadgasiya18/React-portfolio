@@ -50,8 +50,16 @@ const Contact = () => {
                 placeholder="write your message.."
               ></textarea>
             </div>
-            <button className="btn">
-              Send Message <i className="icon-paper-plane" style={{marginLeft:'8px',fontSize:'15px',fontWeight:'bold'}}></i>
+            <button className="btn" style={{ marginLeft: "1rem" }}>
+              Send Message{" "}
+              <i
+                className="icon-paper-plane"
+                style={{
+                  marginLeft: "8px",
+                  fontSize: "15px",
+                  fontWeight: "bold",
+                }}
+              ></i>
             </button>
           </form>
         </div>

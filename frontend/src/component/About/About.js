@@ -1,8 +1,21 @@
 import React from "react";
 import "./About.css";
 import i1 from "../../assets/square.png";
+import pdf from "../../assets/Resume.pdf";
+
+// const PDF_URL = "http://localhost:3000/Resume.pdf";
 
 const About = () => {
+  // const downloadUrl = (url) => {
+  //   fetch(url)
+  //     .then((res) => res.blob())
+  //     .then((blob) => {
+  //       const blobURL = window.URL.createObjectURL(new Blob([Blob]));
+  //       const fileName = url.split("/").pop();
+  //       const aTag = document.createElement("a");
+  //       aTag.href = url;
+  //     });
+  // };
   return (
     <>
       <section className="about container section" id="about">
@@ -18,7 +31,7 @@ const About = () => {
                 customization, also I am a good in Backend technology like Node
                 Js,Express Js etc.
               </p>
-              <a href="" className="btn">
+              <a href={pdf} className="btn">
                 <i
                   className="icon-cloud-download"
                   style={{ marginRight: "10px" }}
