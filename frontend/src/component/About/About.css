@@ -1,0 +1,125 @@
+.about__container {
+  grid-template-columns: 2fr 11fr;
+  column-gap: 3.875rem;
+  margin-top: 3rem;
+}
+.about__data {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  align-items: flex-start;
+  position: relative;
+}
+.about__data::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid var(--container-color);
+  position: absolute;
+  left: -0.93rem;
+  top: 20%;
+}
+.about__img {
+  height: 18rem;
+  width: max-content;
+  border-radius: 7%;
+}
+.about__desc {
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: black;
+  font-family: "Poppins";
+}
+.about__skill {
+  row-gap: 1.35rem;
+}
+.skill_titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.skill__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+.skill__number {
+  line-height: 1.2;
+}
+
+.skill__bar,
+.skill__percentage {
+  height: 7px;
+  border-radius: 0.25rem;
+}
+
+.skill__bar {
+  background-color: #f1f1f1;
+}
+.skill__percentage {
+  display: block;
+}
+
+.development {
+  width: 90%;
+  background-color: blueviolet;
+}
+.backend {
+  width: 40%;
+  background-color: blueviolet;
+}
+.design {
+  width: 80%;
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 720px;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+  .about__data::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 49%;
+    top: -20px;
+  }
+  .about__img {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 500px;
+  }
+  .about__data::before {
+    left: 47%;
+  }
+  .about__data {
+    grid-template-columns: 1fr;
+    row-gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about__container {
+    grid-template-columns: 320px;
+  }
+  .about__img {
+    height: 250px;
+    width: 225px;
+    border-radius: 8%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+}
