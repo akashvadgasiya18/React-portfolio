@@ -15,13 +15,18 @@ const Contact = () => {
             </p>
           </div>
 
-          <form action="" className="contact__form">
+          <form
+            action="https://formspree.io/f/myyadpyg"
+            className="contact__form"
+            method="POST"
+          >
             <div className="contact__form-grp">
               <div className="contact__form-div">
                 <input
                   type="text"
                   className="contact__form-input"
                   placeholder="Enter your Name"
+                  name="username"
                 />
               </div>
 
@@ -30,6 +35,7 @@ const Contact = () => {
                   type="email"
                   className="contact__form-input"
                   placeholder="Enter your email"
+                  name="email"
                 />
               </div>
             </div>
@@ -38,11 +44,12 @@ const Contact = () => {
                 type="text"
                 className="contact__form-input"
                 placeholder="Subject..."
+                name="sub"
               />
             </div>
             <div className="contact__form-div contact__form-area">
               <textarea
-                name=""
+                name="msg"
                 id=""
                 cols="30"
                 rows="10"
@@ -50,7 +57,11 @@ const Contact = () => {
                 placeholder="write your message.."
               ></textarea>
             </div>
-            <button className="btn" style={{ marginLeft: "1rem" }}>
+            <button
+              type="submit"
+              className="btn"
+              style={{ marginLeft: "1rem" }}
+            >
               Send Message{" "}
               <i
                 className="icon-paper-plane"

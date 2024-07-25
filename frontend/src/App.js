@@ -7,6 +7,7 @@ import Service from "./component/Service/Service";
 import Portfolio from "./component/Portfolio/Portfolio";
 import Contact from "./component/Contact/Contact";
 import Education from "./component/Education/Education";
+import Skills from "./component/Skill/Skills";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
+        <Skills />
         <Service />
         <Education />
         <Portfolio />

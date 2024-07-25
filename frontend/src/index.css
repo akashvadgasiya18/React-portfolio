@@ -105,6 +105,15 @@ img {
   position: relative;
   margin-bottom: 3.75rem;
 }
+.section__subtitle
+{
+  font-size: 18px;
+  margin-left: 0.875rem;
+  color: rgb(119, 119, 119);
+  font-weight: var(--font-bold);
+  position: absolute;
+  margin-top: -50px;
+}
 
 .section__title::before {
   content: "";
@@ -113,7 +122,7 @@ img {
 .btn {
   padding: 0.95rem 4rem;
   line-height: 1;
-  border-radius: 1.875rem;
+  border-radius: 1rem;
   box-shadow: 0 0 1px rgb(0 0 0 /0%);
   border: 1px solid transparent;
   color: white;
