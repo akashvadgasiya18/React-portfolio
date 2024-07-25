@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .intro {
-  max-width: 540px;
+  max-width: 100%;
   text-align: center;
 }
 .home_img {
@@ -35,7 +35,7 @@
   }
 }
 .home__name {
-  font-size: var(--h1-font-size);
+  font-size: 3rem;
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
 }
@@ -121,11 +121,11 @@
   .back-top {
     position: fixed;
     bottom: "50px";
-    right: "50px";
+    right: "40px";
     height: "30px";
     background-color: "black";
     color: "white";
-    width: "30px";
+    width: "40px";
     font-size: "25px";
     border: none;
     outline: none;

@@ -37,7 +37,7 @@ const Menu = [
     id: 5,
     image: i5,
     title: "Quiz App",
-    desc: "users are asked to answer a few questions in the form of a test, and based on the analysis of their answers, something useful or interesting is promised.",
+    desc: "User can select their interesting fields and answer the question in MCQ formate and last get score.",
     icon: "icon-link",
   },
 ];
