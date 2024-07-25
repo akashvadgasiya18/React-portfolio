@@ -10,30 +10,35 @@ const Menu = [
     image: i1,
     title: "Citizencare.com",
     desc: "Home-made servide providing website",
+    icon: "icon-link",
   },
   {
     id: 2,
     image: i2,
     title: "E-commerce Website",
     desc: "A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location",
+    icon: "icon-link",
   },
   {
     id: 3,
     image: i3,
     title: "Technomantra2k24",
     desc: "It is one type of Event website which is organized by our Collage, using this anyone can participate and get whole details of Event.",
+    icon: "icon-link",
   },
   {
     id: 4,
     image: i4,
     title: "Wheather App",
     desc: "It is a application to predict the condition of atmosphere for the given location and time",
+    icon: "icon-link",
   },
   {
     id: 5,
     image: i5,
     title: "Quiz App",
     desc: "users are asked to answer a few questions in the form of a test, and based on the analysis of their answers, something useful or interesting is promised.",
+    icon: "icon-link",
   },
 ];
 

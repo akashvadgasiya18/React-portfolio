@@ -9,20 +9,20 @@ const Portfolio = () => {
       <h2 className="section__title">Recent Work</h2>
       <div className="work__container grid">
         {items.map((ele) => {
-          const { id, image, title, desc } = ele;
+          const { id, image, title, desc, icon } = ele;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img
-                  src={image}
-                  alt=""
-                  className="work__img"
-                  
-                />
+                <img src={image} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
               <h3 className="work__title">{title}</h3>
               <p className="work__desc">{desc}</p>
+              <span className="repo">
+                <a href="https://github.com/akashvadgasiya18?tab=repositories">
+                  <i className={icon} style={{ fontWeight: "bold" }}></i> link
+                </a>
+              </span>
             </div>
           );
         })}

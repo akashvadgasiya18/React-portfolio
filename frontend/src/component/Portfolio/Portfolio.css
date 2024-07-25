@@ -45,6 +45,22 @@
   transition: 0.3s;
   opacity: 0;
 }
+.repo {
+  color: black;
+  font-size: 20px;
+  margin: 100px 0;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 4.75rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+  cursor: pointer;
+}
+.repo:hover {
+  text-decoration: 1px solid black underline;
+}
+
 .work__card:hover {
   opacity: 1;
 }
@@ -58,6 +74,10 @@
 }
 .work__card:hover .work__mask {
   opacity: 0.9;
+}
+.work__card:hover .repo {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 1200px) {
