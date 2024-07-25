@@ -4,6 +4,7 @@ import img1 from "../../assets/square.png";
 import Socialicon from "./HomeSocial";
 import ScrollDown from "./ScrollDown";
 import TypeWrite from "./TypeWrite";
+import BacktoTop from "./BacktoTop";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
 
           <ScrollDown />
         </div>
-
+        <BacktoTop />
         {/* <Shapes /> */}
       </section>
     </>

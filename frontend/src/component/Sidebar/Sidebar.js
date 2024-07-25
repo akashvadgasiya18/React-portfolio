@@ -13,37 +13,65 @@ const Sidebar = () => {
           <div className="nav__menu">
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="#home" className="nav_link">
+                <a
+                  href="#home"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-home"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#about" className="nav_link">
+                <a
+                  href="#about"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-user"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#skill" className="nav_link">
+                <a
+                  href="#skill"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-bulb"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#service" className="nav_link">
+                <a
+                  href="#service"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-briefcase"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#education" className="nav_link">
+                <a
+                  href="#education"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-graduation"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#portfolio" className="nav_link">
+                <a
+                  href="#portfolio"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-note"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#contact" className="nav_link">
+                <a
+                  href="#contact"
+                  className="nav_link"
+                  onClick={() => SetToggle(false)}
+                >
                   <i className="icon-bubble"></i>
                 </a>
               </li>
