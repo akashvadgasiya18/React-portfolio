@@ -1,6 +1,4 @@
-.text-1,
-.text-2,
-.text-3 {
+.text-1 {
   text-transform: uppercase;
   font-family: "Poppins";
   font-weight: 700;
@@ -10,17 +8,9 @@
 .text-1 {
   color: rgb(82, 82, 252);
 }
-.text-2 {
-  color: rgb(82, 82, 252);
-}
-.text-3 {
-  color: rgb(82, 82, 252);
-}
 
 @media screen and (max-width: 576px) {
-  .text-1,
-  .text-2,
-  .text-3 {
+  .text-1 {
     text-transform: uppercase;
     font-family: "Poppins";
     font-weight: 700;
